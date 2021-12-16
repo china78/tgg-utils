@@ -1,0 +1,1 @@
+export { sortFn } from './array/index.js';

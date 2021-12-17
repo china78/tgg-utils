@@ -26,7 +26,7 @@ return /******/ (() => { // webpackBootstrap
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sortFn\": () => (/* binding */ sortFn)\n/* harmony export */ });\n// 升序排列\nconst sortFn = (data, type, attribute) => {\n  const sortUp = (a, b) => {\n    return a[attribute] - b[attribute]\n  }\n  const sortDown = () => {\n    return b[attribute] - a[attribute]\n  }\n  if (type === 0) {\n    return data.sort(sortUp);\n  } else {\n    return data.sort(sortDown);\n  }\n}\n\n\n\n//# sourceURL=webpack://tgg-utils/./src/array/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sortFn\": () => (/* binding */ sortFn)\n/* harmony export */ });\n// 升序排列\nconst sortFn = (data, type, attribute) => {\n  const sortUp = (a, b) => {\n    return a[attribute] - b[attribute]\n  }\n  const sortDown = (a, b) => {\n    return b[attribute] - a[attribute]\n  }\n  if (type === 0) {\n    return data.sort(sortUp);\n  } else {\n    return data.sort(sortDown);\n  }\n}\n\n\n\n//# sourceURL=webpack://tgg-utils/./src/array/index.js?");
 
 /***/ }),
 
